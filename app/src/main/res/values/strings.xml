@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android Project 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_fragment">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+    <string name="preference_key">com.example.sunny.androidproject2.preference_key</string>
+    <string name="btn_direction">Direction</string>
+    <string name="EditRadius">Please insert radius between 250-5000</string>
+    <string name="switchKMS">KMS</string>
+    <string name="switchMILS">MILS</string>
+    <string name="textKmOrMils">Choose Kilometers Or Mils</string>
+    <string name="switchKms">KMS</string>
+    <string name="switchMils">MILS</string>
+    <string name="textSeekBar">Choose The Distance</string>
+    <string name="edit_distance">Please enter your distance between 500-50000 meters</string>>
+</resources>

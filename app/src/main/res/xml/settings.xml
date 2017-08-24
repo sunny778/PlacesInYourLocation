@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/textKmOrMils">
+
+    <SwitchPreference
+        android:key="switch_kms"
+        android:defaultValue="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:checked="true"
+        android:title="@string/switchKms" />
+
+    <SwitchPreference
+        android:key="switch_mils"
+        android:defaultValue="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:title="@string/switchMils" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/textSeekBar">
+
+        <EditTextPreference
+
+            android:id="@+id/editDistance"
+            android:defaultValue="500"
+            android:inputType="number"
+            android:key="edit_text_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/edit_distance" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
